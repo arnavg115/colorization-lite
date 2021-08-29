@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="rz-color-lite",
-    version="0.0.1",
+    version="0.0.2",
     description="Rich Zhang's colorization caffe model in the form of an easy to use python package.",
     long_description=README,
     long_description_content_type="text/markdown",
