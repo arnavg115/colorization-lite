@@ -2,3 +2,6 @@ model
 env
 __pycache__
 bw.jpg
+rz_color_lite.egg-info
+dist
+build
