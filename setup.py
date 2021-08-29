@@ -14,7 +14,7 @@ setup(
     url="https://github.com/arnavg115/colorization",
     author="Arnav G.",
     license="MIT",
-    packages=["colorizers_lite"],
+    packages=["colorizer_lite"],
     include_package_data=True,
     install_requires=["tqdm","opencv-python","numpy"],
     classifiers=[
