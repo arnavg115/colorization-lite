@@ -23,8 +23,8 @@ jobs:
           pytest
       - name: Build and Publish
         env:
-          TWINE_USERNAME: ${{secrets.password}}
-          TWINE_PASSWORD: ${{secrets.username}}
+          TWINE_USERNAME: ${{secrets.PASSWORD}}
+          TWINE_PASSWORD: ${{secrets.USERNAME}}
         run: |
           python setup.py sdist bdist_wheel
           twine upload dist/*
