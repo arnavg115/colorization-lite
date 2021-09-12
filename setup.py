@@ -16,7 +16,7 @@ setup(
     license="MIT",
     packages=["colorizer_lite"],
     include_package_data=True,
-    install_requires=["tqdm","opencv-python","numpy"],
+    install_requires=["tqdm","opencv-python","numpy","requests"],
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
